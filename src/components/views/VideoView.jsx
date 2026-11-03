@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check } from 'lucide-react';
+import { Check, ExternalLink } from 'lucide-react';
 import { CustomIcon, KaptenKloro } from '../svg/Illustrations';
 import { VIDEOS_DATA } from '../../data/photosynthesisData';
 
@@ -156,22 +156,29 @@ export default function VideoView({
                 <div className="space-y-3">
                   <div className="rounded-2xl overflow-hidden border-2 border-[#1B4332] bg-black aspect-video">
                     <iframe
-                      key={activeVideo.id}
+                      key={activeVideo.youtubeId}
                       className="w-full h-full"
-                      src={activeVideo.youtubeUrl || `https://www.youtube.com/embed/${activeVideo.youtubeId}?hl=id&cc_lang_pref=id&rel=0`}
+                      src={`https://www.youtube.com/embed/${activeVideo.youtubeId}`}
                       title={activeVideo.title}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
                     />
                   </div>
-                  <div className="flex justify-end">
+                  <div className="flex flex-wrap items-center justify-between gap-2 pt-1">
+                    {activeVideo.channel && (
+                      <span className="text-xs font-semibold text-[#2D6A4F] bg-[#D8F3DC] px-3 py-1.5 rounded-xl border border-[#1B4332]">
+                        Channel: <strong>{activeVideo.channel}</strong>
+                      </span>
+                    )}
                     <a
                       href={activeVideo.watchUrl || `https://www.youtube.com/watch?v=${activeVideo.youtubeId}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#E76F51] hover:bg-[#d45d3f] text-white font-heading font-bold text-xs sm:text-sm border-2 border-[#1B4332] shadow-[2px_2px_0px_#1B4332] transition"
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#E76F51] hover:bg-[#d45d3f] text-white font-heading font-bold text-xs sm:text-sm border-2 border-[#1B4332] shadow-[2px_2px_0px_#1B4332] transition ml-auto"
                     >
-                      Tonton Langsung di YouTube (Bahasa Indonesia)
+                      <ExternalLink className="w-4 h-4" />
+                      <span>Buka Langsung di YouTube</span>
                     </a>
                   </div>
                 </div>

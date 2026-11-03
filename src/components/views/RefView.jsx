@@ -45,7 +45,16 @@ return (
               <strong>Tipografi Ramah Anak:</strong> Google Fonts <em>Fredoka</em> & <em>Plus Jakarta Sans</em>, dikombinasikan dengan ikon antarmuka Lucide Icons.
             </li>
             <li className="p-3.5 bg-[#F4F1EA] rounded-xl border-2 border-[#1B4332]">
-              <strong>Video Pembelajaran:</strong> Kanal Edukasi Sains Anak (Peekaboo Kidz / SciShow Kids) serta Papan Cerita Visual Interaktif Mandiri.
+              <strong>Video Pembelajaran IPAS SD (Bahasa Indonesia):</strong>
+              <ul className="mt-1.5 space-y-1 list-disc list-inside text-xs text-[#1B4332]">
+                <li><em>Bimbel Online - IPAS Kelas 4 SD</em> ("1. Mengenal Apa Itu Fotosintesis")</li>
+                <li><em>Everyday Learning - Kurikulum Merdeka</em> ("2. Empat Bahan Utama Fotosintesis")</li>
+                <li><em>Ratih Setyaningrum - Sains SD</em> ("3. Animasi Proses Terjadinya Fotosintesis")</li>
+                <li><em>Mashindra Prisma - IPAS Kelas 4</em> ("4. Hasil dan Manfaat Fotosintesis bagi Kehidupan")</li>
+              </ul>
+              <div className="mt-1.5 text-xs text-[#3A4D43]">
+                Dilengkapi mode <strong>Papan Cerita Visual Interaktif</strong> terintegrasi (hemat kuota & ramah siswa).
+              </div>
             </li>
           </ul>
         </div>
