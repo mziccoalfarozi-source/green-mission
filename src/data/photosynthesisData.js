@@ -160,7 +160,9 @@ export const VIDEOS_DATA = [
     title: 'Bagian 1: Pengenalan Fotosintesis pada Tumbuhan',
     duration: '03:15',
     category: 'Konsep Dasar',
-    youtubeId: 'UPBMG5EYydo',
+    youtubeId: 'b3k65M2bN2A',
+    youtubeUrl: 'https://www.youtube.com/embed/b3k65M2bN2A?hl=id&cc_lang_pref=id&rel=0',
+    watchUrl: 'https://www.youtube.com/watch?v=b3k65M2bN2A',
     summary: 'Mengenal bagaimana tumbuhan berbeda dengan manusia dan hewan karena tumbuhan mampu memasak makanannya sendiri di daun.',
     storySlides: [
       { icon: 'leaf', title: 'Keunikan Tumbuhan Hijau', text: 'Ketika manusia atau hewan lapar, kita mencari makanan dari luar. Namun tumbuhan hijau tidak berpindah tempat karena mampu membuat makanannya sendiri.' },
@@ -178,7 +180,9 @@ export const VIDEOS_DATA = [
     title: 'Bagian 2: Bahan-Bahan yang Dibutuhkan Tumbuhan',
     duration: '03:45',
     category: 'Komponen Utama',
-    youtubeId: 'D1Ymc311XS8',
+    youtubeId: 'Mtgl6_127dc',
+    youtubeUrl: 'https://www.youtube.com/embed/Mtgl6_127dc?hl=id&cc_lang_pref=id&rel=0',
+    watchUrl: 'https://www.youtube.com/watch?v=Mtgl6_127dc',
     summary: 'Mempelajari 4 bahan wajib agar dapur fotosintesis tumbuhan dapat bekerja: Cahaya Matahari, Air, Karbon Dioksida, dan Klorofil.',
     storySlides: [
       { icon: 'sun', title: '1. Cahaya Matahari & 2. Klorofil', text: 'Matahari memberikan energi cahaya. Klorofil (zat hijau daun) bertugas menangkap energi cahaya tersebut di permukaan daun.' },
@@ -196,7 +200,9 @@ export const VIDEOS_DATA = [
     title: 'Bagian 3: Proses Fotosintesis Melalui Animasi',
     duration: '04:10',
     category: 'Alur Proses',
-    youtubeId: 'sQK3Yr4Sc_k',
+    youtubeId: 'vF8u8vK8Z6I',
+    youtubeUrl: 'https://www.youtube.com/embed/vF8u8vK8Z6I?hl=id&cc_lang_pref=id&rel=0',
+    watchUrl: 'https://www.youtube.com/watch?v=vF8u8vK8Z6I',
     summary: 'Melihat perjalanan air dari akar, masuknya CO₂ di stomata, hingga klorofil memasaknya dengan cahaya matahari.',
     storySlides: [
       { icon: 'roots', title: 'Tahap 1 & 2: Pengumpulan Bahan', text: 'Air naik dari akar melewati batang menuju daun. Pada saat bersamaan, mulut daun (stomata) membuka untuk menyerap gas CO₂.' },
@@ -214,7 +220,9 @@ export const VIDEOS_DATA = [
     title: 'Bagian 4: Hasil dan Manfaat Fotosintesis',
     duration: '03:30',
     category: 'Dampak Kehidupan',
-    youtubeId: '3pD68uxRLkM',
+    youtubeId: '8wT5nZ3dE2k',
+    youtubeUrl: 'https://www.youtube.com/embed/8wT5nZ3dE2k?hl=id&cc_lang_pref=id&rel=0',
+    watchUrl: 'https://www.youtube.com/watch?v=8wT5nZ3dE2k',
     summary: 'Mengapa Bumi kita tetap sejuk, kaya oksigen, dan menyediakan pangan berkat fotosintesis tumbuhan hijau.',
     storySlides: [
       { icon: 'glucose', title: 'Sumber Pangan Makhluk Hidup', text: 'Glukosa hasil fotosintesis disimpan tumbuhan menjadi buah, padi, umbi, dan sayuran yang menjadi makanan manusia serta hewan.' },
